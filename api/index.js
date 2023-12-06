@@ -23,11 +23,11 @@ app.use(cors(options)); //de esta maner podemos dejar que se conencten de cualqu
 
 
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('hola mi server')
 })
 
-app.get('/nueva-ruta', (req, res) => {
+app.get('/api/nueva-ruta', (req, res) => {
   res.send('hola nueva ruta')
 })
 
